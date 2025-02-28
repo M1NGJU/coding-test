@@ -1,0 +1,4 @@
+-- 코드를 작성해주세요
+select count(time) as FISH_COUNT
+from FISH_INFO
+where YEAR(time)='2021';
